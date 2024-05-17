@@ -1,3 +1,4 @@
+import random
 from aiogram import Router, types, F
 
 router = Router()
@@ -20,4 +21,4 @@ async def chating(message: types.Message):
 
 
     else:
-        await message.reply('Я скинхед!!!!')
+        await message.reply('Я скуф!!!!')
